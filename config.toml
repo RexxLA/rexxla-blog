@@ -6,4 +6,6 @@ theme = "ananke"
 [params]
   body_classes = "avenir bg-near-white"
   site_logo = "images/netrexx.gif"
+  pagination = 15
 
+  
