@@ -10,11 +10,12 @@ sidebarrecentlimit = 	5
  custom_css = ["_code.css","syntax.css"]
 [params]
   body_classes = "avenir bg-near-white"
+  post_content_classes = "avenir bg-near-white"	
   site_logo = "images/netrexx.gif"
   pagination = 15
   copyright = "RexxLA 2022"
-  recent_posts_number = 3
-  
+  recent_posts_number = 8
+  background_color_class = "bg-navy"
 # [markup]
 #   [markup.highlight]
 #     anchorLineNos = false
