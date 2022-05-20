@@ -2,10 +2,35 @@ baseURL = 'http://netrexx.org'
 languageCode = 'en-us'
 title = 'The NetRexx Blog'
 theme = "ananke"
-
+#featured_image = 'images/NetRexxLogo.png'
+SectionPagesMenu = "main"
+copyrighthtml = 'Copyright &#xA9; 2017 John Doe. All Rights Reserved.'
+sidebarrecentlimit = 	5
+# markup.highlight.noClasses=false
+ custom_css = ["_code.css","syntax.css"]
 [params]
   body_classes = "avenir bg-near-white"
   site_logo = "images/netrexx.gif"
   pagination = 15
+  copyright = "RexxLA 2022"
+  recent_posts_number = 3
+  
+# [markup]
+#   [markup.highlight]
+#     anchorLineNos = false
+#     codeFences = true
+#     guessSyntax = false
+#     hl_Lines = ''
+#     lineAnchors = ''
+#     lineNoStart = 1
+#     lineNos = false
+#     lineNumbersInTable = true
+#     noClasses = true
+#     noHl = false
+#     style = 'solarized-light'
+#     tabWidth = 4
 
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/netrexx"
   
