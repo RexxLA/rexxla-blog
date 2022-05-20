@@ -1,0 +1,9 @@
+baseURL = 'http://netrexx.org'
+languageCode = 'en-us'
+title = 'The NetRexx Blog'
+theme = "ananke"
+
+[params]
+  body_classes = "avenir bg-near-white"
+  #site_logo = "images/netrexx.gif"
+
