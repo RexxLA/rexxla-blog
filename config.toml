@@ -1,4 +1,4 @@
-baseURL = 'www.rexxla.org'
+baseURL = 'https://www.rexxla.org/blog'
 languageCode = 'en-us'
 title = 'RexxLA'
 theme = "ananke"
@@ -8,8 +8,8 @@ sidebarrecentlimit = 	5
 # markup.highlight.noClasses=false
  custom_css = ["_code.css","syntax.css"]
 [params]
-  body_classes = "avenir bg-near-white"
-  post_content_classes = "avenir bg-near-white"	
+  body_classes = "avenir bg-white"
+  post_content_classes = "avenir bg-white"	
   site_logo = 'images/rexxla.png'
   pagination = 15
   copyright = "RexxLA 2022"

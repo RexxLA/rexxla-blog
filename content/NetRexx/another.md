@@ -2,7 +2,7 @@
 title: "About2"
 date: 2022-05-20T17:38:07+02:00
 featured-image: "images/netrexx.gif"
-draft: false
+draft: true
 <!-- menu: -->
 <!--   main: -->
 <!--    weight: 2 -->
