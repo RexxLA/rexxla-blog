@@ -2,7 +2,7 @@
 title: "About"
 date: 2022-05-20T17:38:07+02:00
 featured_image: "images/NetRexxLogo.png"
-draft: false
+draft: true
 menu:
   main:
     weight: 1
