@@ -71,18 +71,17 @@ lineNo = 0
 ```
 ## Using address
 Since NetRexx 4.03, the `address` statement has the 'with output stem'
-option, which seems a good fit for this assignment. 
+and 'with input stream' options, which seem a good fit for this assignment. 
 
 ```rexx
 istem=''
-address system 'cat testfile' with output stem istem
-loop i=1 to istem[0] 
-  say i istem[i]
+address system 'cat' with input stream 'testfile' output stem istem
+loop i=1 to istem[0]
+say i istem[i]
 end
 ```
 Note that in NetRexx, stem notation uses square brackets
-exclusively. For Windows, 'type testfile' instead of 'cat testfile'
-can be used.
+exclusively. For Windows, 'type' instead of 'cat' can be used.
 ## Plumbing - Using a pipeline
 NetRexx enables you to use pipelines, a lesser-know but magnificent
 data stream oriented language that also originated on VM - IBM mainframe
