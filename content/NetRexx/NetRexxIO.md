@@ -22,7 +22,7 @@ Starting with NetRexx 4.03 the Classic Rexx `stream` methods are
 provided in the `netrexx.lang.RexxStream` class; in scripting mode,
 these are automatically provided: we issue a 'uses RexxStream' so its
 static methods can be used without their classname prefixed.
-```
+```rexx
 /* Rexx and NetRexx >= 4.03 */
 parse arg filename
 do i=1 while lines(filename) > 0
@@ -47,8 +47,8 @@ advantage that all the code that actually handles the lines, can be
 bundled together in the `handle()` method, and separated from the code
 that sets up the arguments and opens the file. The `handle()` method
 can also be put into another class (which needs to implement the
-`LineHandler` interface.
-```
+`LineHandler` interface).
+```java
 class ReadFileByLines public implements LineHandler
 
 properties private static
@@ -73,7 +73,7 @@ lineNo = 0
 Since NetRexx 4.03, the `address` statement has the 'with output stem'
 option, which seems a good fit for this assignment. 
 
-```
+```rexx
 istem=''
 address system 'cat testfile' with output stem istem
 loop i=1 to istem[0] 
@@ -92,9 +92,9 @@ Pipelines have sources, stages and sinks. 'Cons' (short for 'console')
 is here the data sink, the '<' sign is the data source, which sends
 the records of 'testfile' into the pipeline. The 'spec' stage does the
 work: it prints the record number on position 1 and the rest of the
-record (1_\*) to the 'nw' (next word) position. Pipelines is a
+record (1-\*) to the 'nw' (next word) position. Pipelines is a
 powerful tool with a steep learning curve, but I think worth your while. 
-```
+```rexx
 pipe < testfile | spec number 1 1-* nw | cons
 ```
 When you start `nrws` in the directory that has
@@ -117,7 +117,7 @@ being somewhat verbose when compared to the more Rexx-like ways. For
 that reason it is not my first choice for small scripting like
 activities; for a large application it offers all the speed and
 flexibility you need.
-```
+```java
 import java.io.BufferedReader
 import java.io.FileReader
 
@@ -129,18 +129,18 @@ class ReadFileByLines public
   method main(args=String[]) static
     loop filename over args
       do
-	fr=FileReader(filename)
-	br=BufferedReader(fr)
-	lineNo=0
-	loop forever
-	  line=br.readLine()
-	  if line==null then leave
-	  processLine(lineNo,line)
-	  lineNo=lineNo+1
-	end
-      catch ex=Exception
-	ex.printStackTrace()
-      finally
+		  fr=FileReader(filename)
+		  br=BufferedReader(fr)
+		  lineNo=0
+		  loop forever
+			  line=br.readLine()
+			  if line==null then leave
+		  processLine(lineNo,line)
+		  lineNo=lineNo+1
+	  end
+    catch ex=Exception
+		ex.printStackTrace()
+    finally
 	if fr\==null then do
 	  do
 	    br.close()
