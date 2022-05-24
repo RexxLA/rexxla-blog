@@ -1,9 +1,9 @@
 ---
 title: "NetRexx 4.04"
-date: 2022-05-24T015:41+02:00
+date: 2022-05-23T15:41+02:00
 tags: []
-featured_image: "/images/netrexx.gif"
-description: ""
+featured_image: ""
+description: "NetRexx 4.04 Preview"
 --- 
 {{< tweet user="NetRexx" id="1529015744310157313" >}}
 
@@ -18,7 +18,7 @@ What you already get over NetRexx 4.03 is the following:
 Under specific circumstances the address statement could generate a
 duplicate internal variable when catching an
 InterruptedException. This did not come out during the beta phase for
-4.03, has been fixed by Marc.
+4.03, and has been fixed by Marc Remes.
 ## Rexx built-in-functions
 For want of a better name, class `RexxRexx` offers the full set of
 NetRexx built-in-methods in the classic function notation. Like

@@ -1,9 +1,10 @@
+[params]
 baseURL = 'https://www.rexxla.org/blog'
 languageCode = 'en-us'
 title = 'RexxLA'
 theme = "ananke"
 #featured_image = 'images/NetRexxLogo.jpg'
-Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+#paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
 DefaultContentLanguage = "en"
@@ -13,7 +14,7 @@ SectionPagesMenu = "main"
 sidebarrecentlimit = 5
 # markup.highlight.noClasses=false
  custom_css = ["_code.css","syntax.css"]
-[params]
+
   body_classes = "avenir bg-white"
   post_content_classes = "avenir bg-white"	
   site_logo = 'images/rexxla.png'

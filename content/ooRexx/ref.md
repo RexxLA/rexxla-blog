@@ -19,7 +19,7 @@ say 'hello hugo world!'
 
 
 
-<!-- {{< youtube w7Ft2ymGmfc >}}--- -->
+<!-- {{< youtube w7Ft2ymGmfc >}} -->
 
 {{< bootstrap-table "table table-striped" >}}
 | Animal  | Sounds |
