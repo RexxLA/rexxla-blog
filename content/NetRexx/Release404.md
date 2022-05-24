@@ -2,7 +2,7 @@
 title: "NetRexx 4.04"
 date: 2022-05-24T015:41+02:00
 tags: []
-featured_image: ""
+featured_image: "/images/netrexx.gif"
 description: ""
 --- 
 {{< tweet user="NetRexx" id="1529015744310157313" >}}
