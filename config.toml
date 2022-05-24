@@ -1,4 +1,4 @@
-[params]
+
 baseURL = 'https://www.rexxla.org/blog'
 languageCode = 'en-us'
 title = 'RexxLA'
@@ -14,7 +14,7 @@ SectionPagesMenu = "main"
 sidebarrecentlimit = 5
 # markup.highlight.noClasses=false
  custom_css = ["_code.css","syntax.css"]
-
+[params]
   body_classes = "avenir bg-white"
   post_content_classes = "avenir bg-white"	
   site_logo = 'images/rexxla.png'
@@ -22,6 +22,13 @@ sidebarrecentlimit = 5
   copyright = "RexxLA 2022"
   recent_posts_number = 8
   background_color_class = "bg-navy"
+  description = "News and Blogs from RexxLA"
+  favicon = ""
+      text_color = ""
+  author = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+
+
 
 [privacy]
   [privacy.disqus]
