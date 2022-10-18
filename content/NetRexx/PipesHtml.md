@@ -10,3 +10,4 @@ running off the right side of the pages, here a version in html:
 [Stages.html](http://rexxla.org/blog/images/stages.html).
 
 This will be corrected in the NetRexx 4.04 release.
+

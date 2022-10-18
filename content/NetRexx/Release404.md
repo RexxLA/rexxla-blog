@@ -1,7 +1,7 @@
 ---
 title: "NetRexx 4.04"
 date: 2022-05-23T15:41+02:00
-tags: []
+tags: [Pipelines,Releases]
 featured_image: ""
 description: "NetRexx 4.04 Preview"
 --- 

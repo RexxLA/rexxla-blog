@@ -71,4 +71,5 @@ sidebarrecentlimit = 5
 name = "twitter"
 url = "https://twitter.com/NetRexx"
 
-
+[markup.goldmark.renderer]
+unsafe = true
